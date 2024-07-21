@@ -1,0 +1,20 @@
+Code Llama是一组基于Llama 2架构的大型语言模型，特别针对代码理解和生成而设计。下面是对这个模型家族的详细解释：
+
+基础概念
+Llama 2：Llama 2是Meta AI开发的一个基础语言模型系列，它使用Transformer架构并经过大规模数据集训练，可以处理各种自然语言处理任务。
+Code Llama：这是Llama 2的衍生版本，专注于代码领域，旨在理解和生成源代码，特别是编程语言的代码片段。
+特点与功能
+State-of-the-Art Performance：Code Llama在多个代码相关的基准测试上展示了顶级的性能，比如在HumanEval和MBPP数据集上达到了67%和65%的准确率，这比其他公开模型要高。
+Infilling Capabilities：模型具有“填充”能力，即在给定代码的某些部分时，它可以预测并生成缺失的部分，这在代码补全和修复错误方面非常有用。
+Large Input Contexts：Code Llama能够处理非常大的输入，例如100k个令牌，这意味着它能理解并操作更大的代码块或更复杂的程序结构。
+Zero-Shot Instruction Following：模型能够在没有额外训练的情况下理解并执行编程指令，这表明它具有很强的泛化能力。
+变体
+Foundation Models (Code Llama)：基础模型，适用于广泛的代码理解和生成任务。
+Python Specializations (Code Llama - Python)：专门针对Python语言优化的模型。
+Instruction-Following Models (Code Llama - Instruct)：这类模型经过训练可以更好地理解和执行编程指令。
+参数规模
+Model Sizes：Code Llama系列包含了不同参数量的模型，包括7B（70亿）、13B（130亿）、34B（340亿）和70B（700亿）参数的版本，参数量越大通常意味着更强的表达能力和潜在的更好性能。
+训练数据
+Training Sequences：模型在包含16k令牌的序列上进行训练，这有助于模型学习代码的语法和语义规则。
+许可与使用
+Permissive License：Code Llama被发布在一个宽松的许可下，这意味着它不仅可用于学术研究，还可以用于商业产品和服务，这促进了模型的广泛传播和应用。
